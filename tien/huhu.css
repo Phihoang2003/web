@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    position: relative;
+}
+.header{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+.header1{
+    padding: 8px 0;
+    text-shadow: #000000 0px 0px 0px;
+    letter-spacing:1.5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 100;
+    background-color: #fbf3f7;
+    height: 37px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header2{
+    display: flex;
+    width: 100%;
+    height: 66px;
+    background-color: #00081c;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.header2 .header2trai{
+    display: flex;
+    gap: 10px;
+}
+.header2 .header2giua{
+    letter-spacing: 8px;
+    color: white;
+    font-weight: 700;
+}
+.header2 .header2phai{
+    display: flex;
+    gap: 10px;
+}
+.header3{
+    display: flex;
+    height: 52px;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    background-color: #00081c;
+    color: white;
+}
+.header3 p{
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+}
+/*section*/
+section{
+    margin-top: 150px;
+}
+.section1{
+    min-height: 700px;
+    background-image: url(hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.section1 .detail{
+    position: absolute;
+    right: 300px;
+    top: 120px;
+    width: 500px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section1 .detail h1{
+    font-weight: 200;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.section1 .detail p{
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.section1 .detail a{
+    margin-top: 10px;
+    width: 160px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    color: black;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 1rem;
+    background-color: #f5f5f5;
+}
+.section2 p{
+    font-weight: 100; 
+}
+.section3{
+    width: 80%;
+    height: 50vh;
+    background-image: url(hero1.jpg);
+    margin: 0 auto;
+    margin-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.section3 .detail1{
+    position: absolute;
+    right: 120px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .detail1 p{
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.section3 .detail1 a{
+    width: 192px;
+    height: 47px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position:  absolute ;
+    left: 0;
+    top: 80px;
+}
+.section4{
+    max-width: 1500px;
+    margin-left: 190px;
+    margin-right: 190px;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: end;
+    gap: 10px;
+}
+.section4 p{
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.section4 .section41{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section4 .section41 p{
+    font-weight: 200;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.section5{
+    display: grid;
+    grid-template-columns:319px 319px 319px 319px ;
+    max-width: 1500px;
+    margin-left: 190px;
+    margin-right: 190px;
+    height: 462px;
+    gap: 5px;
+    margin: 0 auto;
+}
+.section5 .khu1{
+    background-color: red;
+}
+/*section*/
