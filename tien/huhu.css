@@ -393,3 +393,69 @@ section{
     height: 301px;
 }
 /*section*/
+.introduction{
+    width: 1280px;
+    height: 896px;
+}
+.introduction h1{
+    font-family: DWFutura, sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+
+}
+.introduction p{
+    font-size: 15px;
+    color: #474545;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+.introduction-content{
+    display: flex;
+    width: 876px;
+    height: 844px;
+}
+.wrapper-footer{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer{
+    background-color: #dddddd;
+}
+.nation{
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 86px;
+
+}
+.item :first-child{
+    font-size: 20px;
+
+}
+.item p{
+    margin-top: 10px;
+    opacity: 0.7;
+}
+.item :not(:first-child){
+    font-size: 13px;
+    word-break: break-word;
+    letter-spacing: 1.2px;
+    
+}
+.nation i{
+    font-size: 25px;
+}
+.social-network{
+    margin-top: 50px;
+    margin-left: 80px;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+
+}
