@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+body{
+    position: relative;
+}
+.header{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+.header1{
+    padding: 8px 0;
+    text-shadow: #000000 0px 0px 0px;
+    letter-spacing:1.5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 100;
+    background-color: #fbf3f7;
+    height: 37px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header2{
+    display: flex;
+    width: 100%;
+    height: 66px;
+    background-color: #00081c;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.header2 .header2trai{
+    display: flex;
+    gap: 10px;
+}
+.header2 .header2giua{
+    letter-spacing: 8px;
+    color: white;
+    font-weight: 700;
+}
+.header2 .header2phai{
+    display: flex;
+    gap: 10px;
+}
+.header3{
+    display: flex;
+    height: 52px;
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    background-color: #00081c;
+    color: white;
+}
+p{
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+}
+/*section*/
+section{
+    margin-top: 150px;
+}
+h1{
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.section{
+    height: 445px;
+    width: 100%;
+    background-image: url(collection_elan_hero_2800x850_f9200857-59c7-4b44-8818-cf64d8b82d4d.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.section h1{
+    position: absolute;
+    left: 390px;
+    top: 150px;
+}
+
+/*section*/
+/*section1*/
+.section1{
+    height: 43px;
+    width: 100%;
+    background-color: #f5f5f5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 270px;
+
+}
+/*section1*/
+/*section2*/
+.section2{
+    height: 162px;
+    max-width:1550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 0 auto;    
+    padding: 1rem;
+}
+/*section2*/
+/*section3*/
+.section3{
+    display: grid;
+    grid-template-columns:380px 380px 380px 380px;
+    max-width: 1550px;
+    margin-left: 190px;
+    margin-right: 190px;
+    gap: 5px;
+    margin: 0 auto;
+    
+}
+.section3 .khu1{
+    background-color: #f5f5f5;
+    cursor: pointer;
+    
+}
+.section3 .khu1 .khu111{
+    background-image: url(anh\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu112{
+    background-image: url(gift-wrapping-space-above_1c7f264d-027e-41ef-b200-f8b43c844d3c.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.section3 .khu1 .khu113{
+    background-image: url(anh\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu114{
+    background-image: url(anh\ \(3\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu111 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu111 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu112 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu112 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu113 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu113 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu114 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu114 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu12{
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+.section3 .khu1 .khu12 .color{
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section3 .khu1 .khu12 .tittle{
+    font-weight: 200;
+    font-size: 8px;
+    letter-spacing: 1px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 19px;
+    width: 124px;
+}
+.section3 .khu2{
+    background-color: black;
+}
+.section3 .khu1{
+    background-color: #f5f5f5;
+    cursor: pointer;
+    
+}
+.section3 .khu1 .khu1111{
+    background-image: url(anh\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu1112{
+    background-image: url(anh\ \(5\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu1113{
+    background-image: url(anh\ \(6\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu1114{
+    background-image: url(anh\ \(7\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu1111 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu1111 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu1112 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu1112 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu1113 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu1113 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu1114 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu1114 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu12{
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+.section3 .khu1 .khu12 .color{
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section3 .khu1 .khu12 .tittle{
+    font-weight: 200;
+    font-size: 8px;
+    letter-spacing: 1px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 19px;
+    width: 124px;
+}
+
+.section3 .khu1 .khu11111{
+    background-image: url(anh\ \(8\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu11112{
+    background-image: url(anh\ \(9\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu11113{
+    background-image: url(anh\ \(10\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu11114{
+    background-image: url(anh\ \(11\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu11111 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11111 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11112 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11112 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11113 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11113 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11114 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11114 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu12{
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+.section3 .khu1 .khu12 .color{
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section3 .khu1 .khu12 .tittle{
+    font-weight: 200;
+    font-size: 8px;
+    letter-spacing: 1px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 19px;
+    width: 124px;
+}
+
+.section3 .khu1 .khu11122{
+    background-image: url(anh\ \(12\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu11222{
+    background-image: url(anh\ \(10\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu11322{
+    background-image: url(anh\ \(11\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu11422{
+    background-image: url(anh\ \(12\).png);
+    background-size: cover;
+    background-position: center;
+    height: 347px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section3 .khu1 .khu11122 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11122 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11222 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11222 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11322 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11322 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11422 .rose{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu11422 .heart{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.section3 .khu1 .khu12{
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 1rem;
+}
+.section3 .khu1 .khu12 .color{
+    width: 22px;
+    height: 22px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section3 .khu1 .khu12 .tittle{
+    font-weight: 200;
+    font-size: 8px;
+    letter-spacing: 1px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 19px;
+    width: 124px;
+}
+.section3 .khu2{
+    background-color: black;
+}
+.section3 .khu1{
+    background-color: #f5f5f5;
+    cursor: pointer;
+    
+}
+/*section3*/
+/*section4*/
+.section4{
+    height: 158px;
+    background-color: #f4f4f4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*section4*/
